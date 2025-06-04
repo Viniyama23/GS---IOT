@@ -58,7 +58,6 @@ try:
 
                 if braços_cruzados_em_x_acima_da_cabeça(landmarks):
                     alerta = True
-                    # Ajuste do alerta para mais à esquerda
                     cv2.putText(image, 'ALERTA GERADORES LIGADOS!!!', (10, 50),
                                 cv2.FONT_HERSHEY_SIMPLEX, 1.2, (0, 0, 255), 3, cv2.LINE_AA)
 
